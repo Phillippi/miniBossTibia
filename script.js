@@ -60,7 +60,7 @@ function time3() {
 }
 function time4() {
     let today = new Date();
-    today.setMinutes(today.getMinutes() + 1);
+    today.setMinutes(today.getMinutes() + 30);
     let h = today.getHours().toString().padStart(2, '0');
     let m = today.getMinutes().toString().padStart(2, '0');
     let s = today.getSeconds().toString().padStart(2, '0');
